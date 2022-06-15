@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            width:100%;
+        }
+        .cardbody{
+            width:100%;
+            height:500px;
+            /* background-color:aqua; */
+        }
+        #imo {
+            height:450px !important;
+        }
+
+        .cardbody a{
+            text-decoration:none;
+        }
+
+        .card1{
+            width:25%;
+            height:500px;
+            /* background-color:black; */
+        }
+        .card2{
+            width:25%;
+            height:500px;
+            /* background-color:red; */
+        }
+        .card3{
+            width:25%;
+            height:500px;
+            /* background-color:yellow; */
+        }
+        .card4{
+            width:25%;
+            height:500px;
+            /* background-color:pink; */
+        }
+        .card1, .card2, .card3, .card4{
+            float: left;
+            padding: 10px;
+            
+        }
+        .cardbody img{
+            width:100%;
+            height:250px;
+
+        }
+
+        .cardbody h4{
+            margin-top: 10px;
+        }
+
+        .cardbodya{
+            width:100%;
+            height:150px;
+            /* background-color:aqua; */
+            text-align: center;
+        }
+        .cardbodya a{
+            text-decoration: none;
+            color: black;
+            
+        }
+
+
+        .card1a{
+            width:15%;
+            height:150px;
+            /* background-color:black; */
+            margin-left: 20%;
+        }
+        .card2a{
+            width:15%;
+            height:150px;
+            /* background-color:red; */
+        }
+        .card3a{
+            width:15%;
+            height:150px;
+            /* background-color:yellow; */
+        }
+        .card4a{
+            width:15%;
+            height:150px;
+            /* background-color:pink; */
+        }
+
+        .card1a, .card2a, .card3a,.card4a{
+            float: left;
+            
+        }
+
+        .cardbodya img{
+            height:50px;
+            margin-top: 20px;
+        }
+
+        .footer{
+            width:100%;
+            height:500px;
+            background-color:lightgray;
+            text-align: center;
+        }
+        .foo1{
+            width:16%;
+            height:500px;
+            /* background-color:yellow; */
+        }
+        .foo2{
+            width:16%;
+            height:500px;
+            /* background-color:skyblue; */
+        }
+        .foo3{
+            width:16%;
+            height:500px;
+            /* background-color:yellow; */
+        }
+        .foo4{
+            width:16%;
+            height:500px;
+            /* background-color:skyblue; */
+        }
+        .foo5{
+            width:16%;
+            height:500px;
+            /* background-color:pink; */
+        }
+        .foo6{
+            width:16%;
+            height:500px;
+            /* background-color:skyblue; */
+        }
+
+        .foo1,.foo2,.foo3,.foo4,.foo5,.foo6{
+            float: left;
+        }
+        .foo{
+            margin-top: 50px;
+        }
+        .foo a{
+            text-decoration: none;
+            color: black;
+        }
+        .foo a:hover{
+            text-decoration: underline;
+        }
+
+        nav a{
+            padding:20px;
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            
+
+        }
+        nav a:hover{
+            border-bottom: 2px solid black;
+            color: black;
+        }
+        select {
+            margin-left: 200px;
+        }
+
+        
+
+        
+        
+    </style>
+  </head>
+  <body>
+    
+    <div class="header">
+        <nav>
+            <a href=""><img src="./images/logo1.png" alt="" style="width:15%"></a>
+            <a href="">Microsoft 365</a>
+            <a href="">Office</a>
+            <a href="">Windows</a>
+            <a href="">Surface</a>
+            <a href="">Xbox</a>
+            <a href="">Support</a>
+            <a href=""></a>
+            <select name="" id=""><option value=""><a href="">All Microsoft </a></option></select>
+            <a href="">Search<img src="./images/icons8-search-30.png" alt=""></a>
+            <a href="">Cart<img src="./images/icons8-favorite-cart-80.png" alt="" style="width:40px"></a>
+            <a href=""><img src="./images/icons8-test-account-80.png" alt="" ></a>
+        </nav>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" id="image">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href=""><img src="./images/mic1.png" class="d-block w-100" alt="..." id="imo"></a>
+          </div>
+          <div class="carousel-item">
+            <a href=""><img src="./images/mic1a.png" class="d-block w-100" alt="..."id="imo"></a>
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="cardbodya">
+        <div class="card1a"><a href=""><img src="./images/logo2.png" alt="img"><br><b>Choose your <br>Microsoft 365</b></a></div>
+        <div class="card2a"><a href=""><img src="./images/logo3.png" alt="img"><br><b>Explore Surface <br>device</b></a></div>
+        <div class="card3a"><a href=""><img src="./images/logo4.png" alt="img"><br><b>Buy Xbox games</b></a></div>
+        <div class="card4a"><a href=""><img src="./images/logo2.png" alt="img"><br><b>Get Windows 11</b></a></div>
+    </div>
+    <h1></h1>
+
+      <div class="cardbody">
+          <div class="card1"><img src="./images/mic2.png" alt=""><h4><b>PC Game Pass</b></h4><span>uniock 100+ great games and member discounts, plus get your first month for Rs.50 Offer available to new subscribers only.</span><br><a href=""><b>Join now ></b></a></div>
+          <div class="card2"><img src="./images/mic3.png" alt=""><span style="background-color: yellow;color:black;padding:5px 15px;"><b>New</b></span><h4><b>Surface Laptop Studio</b></h4><span>uniock 100+ great games and member discounts, plus get your first month for Rs.50 Offer available to new subscribers only.</span><br><a href=""><b>Learn more ></b></a></div>
+          <div class="card3"><img src="./images/mic4.png" alt=""><h4><b>Surface Laptop 4</b></h4><span>uniock 100+ great games and member discounts, plus get your first month for Rs.50 Offer available to new subscribers only.</span><br><a href=""><b>Shop now ></b></a></div>
+          <div class="card4"><img src="./images/mic5.png" alt=""><h4><b>Microsoft Edge</b></h4><span>uniock 100+ great games and member discounts, plus get your first month for Rs.50 Offer available to new subscribers only.</span><br><a href=""><b>Download now ></b></a></div>
+      </div>
+
+      <div class="cadoimg">
+         <a href=""><img src="./images/mic6.png" alt="" style="width:100%;"></a> 
+      </div>
+
+      
+      <h1 style="padding:80px 8px 8px 8px"><b>For Business</b></h1>
+      <div class="cardbody">
+        <div class="card1"><img src="./images/mic7.png" alt=""><span style="background-color: yellow;color:black;padding:2px 2px;"><b>New</b></span><h4><b>Surface Pro 8 for Business</b></h4><span>Get unprecedented levels of performance and versatility on a 13-inch screen. Discover the newest Surface for Business devices now available with Windows 11</span><br><a href=""><b>Join now ></b></a> </div>
+        <div class="card2"><img src="./images/mic8.png" alt=""><h4><b>Get Microsoft Team for free</b></h4><span>Online meetings chat and shared cloud storage - all in one place. </span><br><a href=""><b>Sign up for free ></b></a> </div>
+        <div class="card3"><img src="./images/mic9.png" alt=""><h4><b>Microsoft 365 for business</b></h4><span>Stay a step ahead with powerful apps for productivity. connection and security.</span><br><a href=""><b>Shop now ></b></a> </div>
+        <div class="card4"><img src="./images/mic10.png" alt=""><h4><b>Windows 11 for business is here</b></h4><span>Designed for hybrid work. powerful for employees. Consistent for IT.Secure for all.</span><br><a href=""><b>Learn more ></b></a></div>
+    </div>
+    <div class="follow">
+        <p><b>Follow Microsoft</b> <a href=""><img src="./images/icons8-facebook-48.png" alt=""></a><a href=""><img src="./images/icons8-twitter-squared-48.png" alt=""></a><a href=""><img src="./images/icons8-youtube-48.png" alt="" style="height:60px;"></a></p>
+
+    </div>
+
+    <div class="footer">
+        <div class="foo1">
+            <div class="foo">
+                <p><b>What's new</b></p>
+                <p><a href="">Microsoft 365</a></p>
+                <p><a href="">Surface Pro X</a></p>
+                <p><a href="">Surface Pro 7</a></p>
+                <p><a href="">Surface Leptop 3</a></p>
+                <p><a href="">Windows 11 apps</a></p>
+            </div>
+            
+        </div>
+        <div class="foo2">
+            <div class="foo">
+                <p><b>Microsoft Store</b></p>
+                <p><a href="">Account Profile</a></p>
+                <p><a href="">Download Center</a></p>
+                <p><a href="">Microsoft Store Support</a></p>
+                <p><a href="">Return</a></p>
+                <p><a href="">Order tracking</a></p>
+            </div>
+        </div>
+        <div class="foo3">
+            <div class="foo">
+                <p><b>Education</b></p>
+                <p><a href="">Microsoft in Education</a></p>
+                <p><a href=""> Divices for education</a></p>
+                <p><a href=""> Microsoft Tearms for education</a></p>
+                <p><a href="">Microsoft 365 Education</a></p>
+                <p><a href="">Office Education</a></p>
+                <p><a href="">Education training and Development</a></p>
+                <p><a href="">Deal for Students and Parents</a></p>
+                <p><a href="">Azure for students</a></p>
+                
+            </div>
+        </div>
+        <div class="foo4">
+            <div class="foo">
+                <p><b>Business</b></p>
+                <p><a href="">Microsoft cloud</a></p>
+                <p><a href="">Microsoft Security</a></p>
+                <p><a href="">Azure</a></p>
+                <p><a href="">Dynamics</a></p>
+                <p><a href="">Microsoft 365</a></p>
+                <p><a href="">Microsoft Advertising</a></p>
+                <p><a href="">Microsoft Industry</a></p>
+                <p><a href="">Microsoft Tearms</a></p>
+            </div>
+        </div>
+        <div class="foo5">
+            <div class="foo">
+                <p><b>Development & IT</b></p>
+                <p><a href="">Development Center</a></p>
+                <p><a href="">Documentation</a></p>
+                <p><a href="">Microsoft Learn</a></p>
+                <p><a href="">Microsoft Tech Community</a></p>
+                <p><a href="">Azure Marketplace</a></p>
+                <p><a href="">AppSource</a></p>
+                <p><a href="">Microsoft Power Platform</a></p>
+                <p><a href="">Visual Studio</a></p>
+            </div>
+        </div>
+        <div class="foo6">
+            <div class="foo">
+                <p><b>Company</b></p>
+                <p><a href="">Careers</a></p>
+                <p><a href="">About Microsoft</a></p>
+                <p><a href="">Company news/a></p>
+                <p><a href="">Privacy at Microsoft</a></p>
+                <p><a href="">Investors</a></p>
+                <p><a href="">Security</a></p>
+                <p><a href="">Sustainability</a></p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>
